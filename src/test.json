@@ -1,0 +1,811 @@
+<div className="jumbotron" style={{ background: "lightGray" }}>
+        <div className="container container-fluid">
+          {relationships.map((m) => (
+            <div key={m.id}>
+              <h1 className="display-4 text-center">
+                <img src={applicantLogo} height="70" width="70" />{" "}
+                {m.Applicant.applicant} for<br></br>
+                <img src={lawFirmLogo} height="70" width="70" />{" "}
+                {m.Applicant.lawFirm}
+              </h1>
+              <div className="row">
+                {m.Relationship.map((rel, index) => (
+                  <div className="col-lg-6 mb-4" align="center">
+                    <div
+                      key={rel.index}
+                      className="card border-secondary mb-3"
+                      style={{ maxWidth: "18rem" }}
+                    >
+                      <div className="card-header">{rel.schoolName}</div>
+                      {rel.People.map((peeps) => (
+                        <div className="card-body text-secondary">
+                          <h5 className="card-title">{peeps.name}</h5>
+                          <p className="card-text">Possible Relationships</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+{
+    "identity": 180275,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "TypeId": 23,
+      "SoftDeleted": false,
+      "Email": "jspielman@mwe.com",
+      "Corporations": "General Catalyst Partners The Comvest Group Primary Care Associates, Inc. Valor Equity Partners Team Health Holdings, Inc. MTS Health Investors St. Joseph’s Regional Medical Center South Palm Ambulatory Surgical Center Optimal IMX, Inc.",
+      "JdYear": 2006,
+      "FirstName": "Joshua",
+      "Rating": 0,
+      "LocationId": 40,
+      "FirmId": 820,
+      "MiddleName": "E",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "PracticeAreaId": 8,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 2721,
+      "Phone": "305-347-6567",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua E Spielman</span></h3><h3>Email: <span style="font-weight: normal">jspielman@mwe.com</span></h3><h3>Title: <span style="font-weight: normal">Partner</span></h3><h3>Phone: <span style="font-weight: normal">+1 305 347 6567 </span></h3><h3>Location: <span style="font-weight: normal">Miami</span></h3><div id='leopardBioHeader'></div><p>Joshua (Jed) E. Spielman has a national practice focused on the business aspects of health care law with an emphasis on mergers and acquisitions, joint ventures and contractual arrangements. Jed serves principally as counsel to private equity funds, public and private corporations, hospitals, physician practices and strategic investors in connection with a wide range of transactional, corporate, regulatory and governance matters.Jed has devoted much of his practice to private equity transactions, including acquisitions, divestitures, growth capital investments, joint ventures, debt and equity financings, corporate restructurings and similar commercial dealings. He has also assisted clients in the development of financial arrangements and transaction structures designed to comply with federal and state health care laws, joint ventures and affiliations between health care providers, state licensure and issues related to Medicare and commercial reimbursement.</p><BR /><H3>Memberships</H3><P>American Health Lawyers Association</P><H3>Corporations</H3><P>Represented upper and middle market private equity funds in various health care M&A transactions including investments in and/or acquisitions of physician practice management companies, behavioral health providers and facilities, dental services organizations, ambulatory surgical centers, urgent care facilities, home health providers, specialty pharmacies, clinical laboratories, and population health management and technology companies.<br/>Represented founders, physician-owned practices and other sellers of health care-related businesses to private equity funds and strategic buyers, including the sale of regional medical and/or clinical provider groups (including in the fields of ophthalmology, retina, primary care and family medicine).<br/>Represented Ares Capital Management with respect to its investment in Unified Womens Healthcare, the largest provider of womens health services in the United States, and in the recapitalization of Unified by funds affiliated with Ares Capital Management and Altas Partners.<br/><br/>Represented Ares Capital Management with respect to its investment in DuPage Medical Group, a leading multi-specialty group with operations throughout the Chicago metropolitan area.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investment in EyeCare Services Partners, one of the nations largest vertically integrated ophthalmologic services providers.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investment in Advanced Dermatology & Cosmetic Surgery, a leading national dermatology practice management company.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investment in Dental Care Alliance, one of the largest multi-branded dental support organizations in the United States.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investments in Athletico Physical Therapy and Accelerated Rehabilitation Centers, creating one of the largest physical therapy providers in the Midwest.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investment in AxelaCare Health Solutions, a leading national provider of specialty home infusion services, and in connection with the subsequent sale of AxelaCare to OptumRx, the pharmacy care services business of Optum.<br/>Represented Harvest Partners as healthcare transactional counsel with respect to its investment VetCor Group Holdings, one of the largest operators of veterinary hospitals in the United States.<br/>Represented WindRose Health Investors with respect to its investment in Bluestone Physician Services, an integrated care delivery provider serving high-risk, chronically ill patients residing in senior living, community, and other home-based settings.<br/>Represented WindRose Health Investors with respect to its investment in Caregiver Inc., a leading provider of long-term care services and supports to individuals with intellectual and developmental disabilities.<br/>Represented WindRose Health Investors with respect to its investment in Ovation Fertility, a leading provider of fertility laboratory services, and in connection with the recapitalization of Unified by funds affiliated with Morgan Stanley Capital Partners.<br/>Represented WindRose Health Investors with respect to its investment in Traditions Behavioral Health, a leading provider of permanent outsourced physician psychiatric services to institutional and community-based programs.<br/>Represented WindRose Health Investors with respect to its investment in Healthmap Solutions, Inc., a specialty health management company focused on progressive diseases with expertise in kidney populations.<br/>Represented Thomas H. Lee Partners as healthcare transactional counsel with respect to its investment in Curo Health Services, a leading national provider of hospice care services.<br/>Represented Advent International as healthcare transactional counsel with respect to its investment in ATI Physical Therapy, the largest single-branded outpatient physical therapy provider in the United States.<br/>Represented Goldman Sachs Merchant Banking Division as healthcare transactional counsel with respect to the sale of Drayer Physical Therapy Institute to Upstream Rehabilitation.<br/>Represented LightBay Capital with respect to its investment in Rancho Family Medical Group, a leading provider of primary care and family medical services in Southern California.<br/>Represented Kelso & Company and its portfolio company, Physicians Endoscopy, in its strategic partnership with Capital Digestive Care, and the formation of PE Practice Solutions, a physician-oriented practice management services organization serving gastroenterologists.<br/>Represented Gauge Capital in its strategic partnerships with multiple eyecare services providers in Southern Nevada, and the formation of Comprehensive EyeCare Partners, one of the largest vision care management services organizations in the United States.<br/>Represented Comvest Partners with respect to its investment in FastMed Urgent Care, one of the largest independent urgent care networks in the United States.<br/>Represented H.I.G. Capital with respect to its investments in Barnet Dulaney Perkins and Southwestern Eye Center, leaders in providing surgical and clinical ophthalmic care to patients throughout Arizona.<br/>Represented H.I.G. Capital and its portfolio company, American Vision Partners, with respect to its strategic partnership with Retinal Consultants of Arizona, the largest retina provider in the Southwest.<br/>Represented Team Health Holdings, a leading national provider of outsourced physician staffing services, with respect to its investments in numerous anesthesia, emergency medicine and hospitalist providers throughout the United States.<br/>Represented Retinal Consultants Medical Group, Northern Californias premier eye and retinal physician-care practice, in its affiliation with Webster Equity Partners and the formation of Retinal Consultants of America, a practice management organization serving retina providers throughout the United States.<br/>Represented Physician Associates, one of the largest multi-specialty physician practices in South Florida, in its sale to Orlando Health.</P><H3>Schools</H3><P><BR />Harvard Law School, JD, 2006<BR />Duke University, BA, magna cum laude, 2003</P><H3>Practice Areas</H3><P>Regulatory, Government & Lobbying Strategies<BR />Healthcare<BR />Private Equity<BR />Healthcare Mergers & Acquisitions<BR />Hospitals & Health Systems<BR />Healthcare Services Private Equity</P><H3>Admissions</H3><P><BR /> Florida <BR /> New York<BR /><BR /></P>",
+      "NodeId": 158932,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 13,
+      "SchoolId": 7556,
+      "Link": "www.mwe.com/people/spielman-joshua-jed-e",
+      "Undergrad": "DUKE U",
+      "International": false
+    },
+    "elementId": "180275"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 176841,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "American Bar Association, Taxation Section National Association of Real Estate Investment Trusts American Society of Composers and Publishers National Academy of Recording Arts & Sciences",
+      "TypeId": 9,
+      "SoftDeleted": false,
+      "Email": "cbeaudrot@mmmlaw.com",
+      "JdYear": 1976,
+      "FirstName": "Charles",
+      "Rating": 0,
+      "LocationId": 30,
+      "FirmId": 1242,
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "PracticeAreaId": 14,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5562,
+      "Phone": "404-504-7753",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Charles  Beaudrot Jr</span></h3><h3>Email: <span style="font-weight: normal">cbeaudrot@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Senior Counsel</span></h3><h3>Phone: <span style="font-weight: normal">404.504.7753</span></h3><h3>Location: <span style="font-weight: normal">Atlanta</span></h3><div id='leopardBioHeader'></div><p>Charles R. Beaudrot, Jr. is senior counsel in the Tax Practice. Mr. Beaudrots areas of practice include corporate and partnership tax, transactional tax planning, state and local tax planning and tax controversy work. Mr. Beaudrot is alsosenior counsel in the Real Estate Capital Markets practice and advises clients with respect to tax issues involving real estate partnerships, real estate investment trusts and their related umbrella partnerships and tax efficient strategies for corporate owned real estate.In 2012, Mr. Beaudrot was asked by Georgia Governor Nathan Deal to serve as the Chief Judge of the Georgia Tax Tribunal, the states first tax court. The court was created to make resolving tax disputes quicker and more efficient. During his time with the court, it heard nearly 2,000 cases, resolving over 1,600. Major decisions decided by Judge Beaudrot include Rosenberg vs. Riley, (the applicability of the adjustment provisions to partnerships in S corporations subject to the Texas franchise tax), Georgia Power vs. MacGinnitie, (which is the scope of the Georgia exemption for manufacturing plant when applied to an electric utility), Inglett & Stubbs vs. Riley, (the applicability of contractors of the sale for resale exemption), Petitioner F1 and F2 vs. MacGinnitie, (first reported decision involving Georgia Law with respect to domicile and residency for income tax purposes), John Doe 1 & John Doe 2 vs. MacGinnitie, (the scope of the jurisdiction of the Tax Tribunal and authority to review decisions of Revenue Department). Mr. Beaudrot is a frequent speaker on tax, partnership and corporate topics for numerous sponsors such as the Georgia Society of Certified Public Accountants, the Institute for Continuing Legal Education in Georgia and the Georgia Real Estate Tax Conference. Mr. Beaudrot has been particularly active in the area of flow-through entities in Georgia, having participated in the drafting process for Georgias LLC and LLP legislation. Prior to his service on the Tax Tribunal, he was regularly listed in Chambers USA, Americas Leading Business Lawyers: The Clients Guide identifies him as among the nations leading tax attorneys, Legal 500 named him as a leading lawyer for real estate tax, Georgia Trend magazine identified him one of the states Legal Elite, Atlanta magazine has listed him as one of its Super Lawyers, and the Atlanta Business Chronicle has listed him in its Whos Who in Law. He also teaches Partnership Tax and Contract Drafting as an Adjunct Professor at Emory University Law Schools Center for Transactional Law and Practice program.PublicationsAuthor:"Strategies for Corporate Tax Planning,Business Tax Planning in an Era of Uncertainty,Chapter 4, Aspatore Books, September 2011Transactional Skills Training: Opinion Letters,Transactions  The Tennessee Journal of Business Law,Special Report 2009"Mega Trends and Current Issues in the Tax World.Inside the Minds: Common Issues in Tax Law: Leading Lawyers on Handling Tax Audits, Executing Tax Appeals, and Monitoring Client Tax Compliance.Chapter 4, Aspatore Books, June 2008Effective Use of Limited Liability Companies in Georgia: An Overview of Their Characteristics and Advantages, 45Mercer Law Review25Limited Liability Companies inGeorgia Jurisprudence, Corporations, and other Business Organizations and Securities RegulationCo-Author:Georgia LLC/LLP HandbookTaxation of Receipts of Profits and Capital Interests In Connection With Performance of Services, ABA Business Law Section Newsletter,August 13, 2009 read less</p><BR /><H3>Memberships</H3><P>Member, State Bar of Georgia<br/>Chair of Tax Section 1997-1998<br/>Chair of the Business Law Section 2003-2004<br/>Member Executive Committee - Business Law Section 2001-2005<br/>Chair of the Partnership & LLC Committee - Business Law Section, 1996-2001<br/>Member of the Partnership & LLC Committee - Business Law Section, 1996-2009<br/>Member of the Legal Opinion Committee - Business Law Section and Corporate Counsel Section, 1990-2001<br/>Member,AtlantaBar Association<br/>Director of Tax Section, 1990-1992<br/>Chair of Tax Section, 1992-1993<br/>Member, American Bar Association<br/>Member, Taxation Section<br/>Atlanta Tax Forum<br/>Trustee, 1994-2000<br/>President 1998-1999</P><H3>Corporations</H3><P>Structuring of ownership and implementation of $1.5 billion in sales of investment real property to affiliated development entity to lock in capital gains and qualify for installment treatment <br/> Representation of real estate investment trusts (REITs) and real estate investment funds in public and private securities offerings totaling more than $13 billion <br/> UBTI planning and implementation for $800 million real estate opportunity investment fund to acquire distressed properties <br/> Advice and implementation of S Corporation election utilizing expanded and relaxed S Corporation election rules permitting family attribution to permit company with over 140 shareholders to elect S <br/> Corporation status, including utilization of Electing Small Business Trust and Qualifying Subchapter S Trust elections as well as addressing repositioning of stock held by impermissible stockholders and addressing community property issues <br/> UBTI and REOC planning and implementation for $200 million real estate investment fund <br/> Tax planning for $50+ million tax deferred recapitalization treatment of internet based financial services company including addressing issues of exchanges of qualified preferred and associated IRC Section 382 loss attenuation issues <br/> Representation of $40 million multistate personal services company and its owner in audit asserting alleged improper deductions and deemed dividend treatment to owner <br/> Use of drop down/freeze LLC transaction to shift over $25 million in appreciation in asset values to C Corporation owners, thus avoiding corporate level taxes on such appreciation <br/> Representation of taxpayer and negotiation of settlement in connection with audit of closely held corporation proposing deemed dividend treatment and disallowance of numerous business expenses <br/> Utilization of F reorganization in the context of S corporations to isolate a drop down LLC structured isolate S corporation status questions within the contributing member <br/> Defense of client in connection with unemployment tax withholdings <br/> Representation of taxpayers in successful penalty waiver requests in connection with late filings by affiliated entities totaling in excess of $2 million <br/> Representation of non-resident partner in connection with voluntary disclosure and successful penalty waiver request to the Georgia Department of Revenue <br/> Structure secured equipment finance and asset securitization transactions using a Delaware Statutory Trust (DST) <br/></P><H3>Schools</H3><P>Harvard University, 1976<BR />Juris Doctor (J.D.)<BR />cum laude<BR /><BR />Duke University, 1973<BR />Bachelor of Arts (B.A.)<BR />summa cum laude<BR />Phi Beta Kappa<BR />Phi Eta Sigma<BR />Angier B. Duke Memorial Scholar</P><H3>Admissions</H3><P>Georgia, 1976</P>",
+      "NodeId": 172380,
+      "StatusId": 27,
+      "LastName": "Beaudrot Jr",
+      "ProbabilityOfMove": 18,
+      "SchoolId": 7556,
+      "Link": "www.mmmlaw.com/people/charles-beaudrot-jr",
+      "Undergrad": "DUKE U",
+      "International": false
+    },
+    "elementId": "176841"
+  }
+  {
+    "identity": 4995,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7556,
+      "Rank": 3,
+      "OriginalName": "Harvard",
+      "Url": "http://www.law.harvard.edu
+  "
+    },
+    "elementId": "4995"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 404714,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "TypeId": 20,
+      "SoftDeleted": false,
+      "Email": "cchristodoulou@mmmlaw.com",
+      "JdYear": 2019,
+      "FirstName": "Christos",
+      "Rating": 0,
+      "LocationId": 10,
+      "FirmId": 1242,
+      "LinkedInUrl": "https://www.linkedin.com/in/christos-christodoulou-3a451584",
+      "UpdatedAt": "2021-12-30T00:00:00Z",
+      "PracticeAreaId": 12,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5565,
+      "Phone": "202-971-4245",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Christos  Christodoulou</span></h3><h3>Email: <span style="font-weight: normal">cchristodoulou@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Associate</span></h3><h3>Phone: <span style="font-weight: normal">202.971.4245</span></h3><h3>Location: <span style="font-weight: normal">Washington, D.C.</span></h3><div id='leopardBioHeader'></div><p>Christos Christodoulou is an Associate in the firms Litigation Practice. Christos specializes in general litigation, and has worked on a variety of cases including regulatory compliance, constitutional claims, employer claims, corporate cases, residential contracts, and bankruptcy.Prior to joining Morris, Manning & Martin, LLP, Christos was an extern at the Department of Justice in the Federal Programs Branch and the United States Attorneys Office for the District of Columbia in the Felony Major Crimes Trial Section. He also has previous experience as a legal intern in the Office of Personnel Management, Office of General Counsel, where he assisted in processing, developing, negotiating and settling tort claims received pursuant to the Federal Tort Claims Act and also aided in the preparation of materials, witnesses, court documents and discovery responses for litigation in EEOC hearings and District Court.  read less</p><BR /><H3>Schools</H3><P>Georgetown University, 2019<BR />Juris Doctor (J.D.)<BR />University of California, Berkeley, 2014<BR />Bachelor of Arts (B.A.)</P><H3>Admissions</H3><P>District of Columbia, 2020<BR /></P>",
+      "NodeId": 1416038,
+      "StatusId": 27,
+      "LastName": "Christodoulou",
+      "ProbabilityOfMove": 29,
+      "SchoolId": 7528,
+      "Link": "www.mmmlaw.com/people/christos-christodoulou",
+      "Undergrad": "U OF CALIFORNIA",
+      "International": false
+    },
+    "elementId": "404714"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 246793,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "TypeId": 23,
+      "SoftDeleted": false,
+      "Email": "mwochok@mmmlaw.com",
+      "JdYear": 2010,
+      "FirstName": "Matthew",
+      "Rating": 0,
+      "LocationId": 10,
+      "FirmId": 1242,
+      "LinkedInUrl": "https://www.linkedin.com/in/matthew-wochok-772895125",
+      "MiddleName": "P",
+      "UpdatedAt": "2021-12-09T00:00:00Z",
+      "PracticeAreaId": 14,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5565,
+      "Phone": "202-971-4248",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Matthew  Wochok</span></h3><h3>Email: <span style="font-weight: normal">mwochok@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Partner</span></h3><h3>Phone: <span style="font-weight: normal">202.971.4248</span></h3><h3>Location: <span style="font-weight: normal">Washington, D.C.</span></h3><div id='leopardBioHeader'></div><p>Matthew P. Wochok is a Partner in the Tax group. Mr. Wochok represents clients in a wide variety of domestic and international tax matters including mergers, acquisitions, divestitures, fund formation, and other complex business transactions. He also regularly advises on capital markets offerings and has extensive experience advising on the tax aspects of financial products.</p><BR /><H3>Schools</H3><P>Georgetown University<BR />Master of Laws in Taxation (LL.M.)<BR />with Distinction<BR />Georgetown University<BR />Juris Doctor (J.D.)<BR />cum laude<BR />University of Virginia<BR />Bachelor of Science (B.S.)</P><H3>Admissions</H3><P>District of Columbia <BR /> New York <BR /> Virginia<BR /></P>",
+      "NodeId": 263900,
+      "StatusId": 27,
+      "LastName": "Wochok",
+      "ProbabilityOfMove": 11,
+      "SchoolId": 7528,
+      "Link": "www.mmmlaw.com/people/matthew-wochok",
+      "Undergrad": "U OF VIRGINIA",
+      "International": false
+    },
+    "elementId": "246793"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 176908,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "American Bar AssociationState Bar of Georgia Real Estate Investment Advisory Council",
+      "SoftDeleted": false,
+      "Email": "dmiller@mmmlaw.com",
+      "JdYear": 2003,
+      "Rating": 0,
+      "PracticeAreaId": 13,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5562,
+      "Phone": "404-504-7672",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Duncan  Miller</span></h3><h3>Email: <span style="font-weight: normal">dmiller@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Partner</span></h3><h3>Phone: <span style="font-weight: normal">404.504.7672</span></h3><h3>Location: <span style="font-weight: normal">Atlanta</span></h3><div id='leopardBioHeader'></div><p>Duncan W. Miller is a Partnerin the Real Estate Development and Finance, Hospitality, Commercial Finance, Commercial Real Estate Debt Management and Real Estate Capital Markets Practices.Mr. Miller has represented developers, financial institutions and investors in all phases of commercial real estate transactions, including financing, acquisitions, dispositions, lending and development of hotels, office, apartments, condominiums, industrial and retail. Recently, he has had extensive experience representing lenders in acquisition, construction and permanent financing for hotel development throughout the United States.Since 2008, Mr. Miller has spent considerable amounts of time representing national private equity funds, local owner/operators and lenders in all phases of the acquisition, workout and disposition of commercial real estate distressed debt. Mr. Millers experience has proven invaluable to both traditional real estate companies that have only been able to find value in the distressed debt markets and for national private equity funds that want local representation and local knowledge.Additionally, Mr. Miller has extensive experience representing lenders in commercial workouts. Mr. Miller is a member of the firms Commercial Real Estate Debt Management practice, a practice dedicated to providing legal support and practical business advice to real estate lenders and owners with respect to their real estate loans.Mr. Miller has significant experience in drafting and negotiating hospitality transaction documentation, including franchise agreements, management agreements and technical service agreements. read less</p><BR /><H3>Memberships</H3><P>Board Member, Carl E. Sanders Family YMCA - Atlanta, Georgia (Buckhead)<br/>Atlanta Hospitality Alliance (AHA)</P><H3>Corporations</H3><P>Representation of one of the most active developers of national hotel chains throughout the Southeast. <br/> Representation of hospitality investor in transactions across 33 states throughout the U.S. <br/> Represented lender in a $97 million financing for construction of a 237 room luxury hotel and condominium project located in Atlanta. <br/> Representation of a public REIT in the acquisition of a $195 million portfolio of student housing developments throughout the Southeast. <br/> Representation of industrial owner/operator/developer in the acquisition, disposition and development of industrial properties in Texas, Georgia, Louisiana, Ohio and Florida, including multi-state portfolio transactions of $140 million, $130 million, $70 million and $60 million. <br/> Assisted multi-family owner with the acquisition, equity financing, joint venture and loan financing for 21,000 units of multi-family properties. <br/> Reviewed and analyzed the acquisition of approximately $102,593,000 outstanding balance of distressed bank debt (representing 22 credit facilities) secured by real estate located throughout the Southeast, Midwest and Mid-Atlantic states, consisting of an office park, industrial condominiums, warehouse facilities, land development, restaurants, office park space and hotel properties. <br/> Reviewed and analyzed the acquisition of approximately $85,302,815 outstanding balance of distressed bank debt (representing approximately 32 credit facilities) secured by real estate located throughout the Southeast, Midwest and Mid-Atlantic states, primarily consisting of franchised hotel properties and various other assets. <br/> Assisted hotel company with the acquisition of two subordinate SBA loans in the aggregate amount of $3,710,638 outstanding balance of distressed bank debt secured by two hotel facilities located in Birmingham. <br/> Acquisition of four separate credit facilities with a $20 million outstanding balance secured by hotel facilities in Florida, North Carolina and Virginia. <br/></P><H3>Schools</H3><P>Georgetown University, 2003<BR />Juris Doctor (J.D.)<BR />Duke University, 1999<BR />Bachelor of Arts (B.A.)<BR />Old Trinity Club<BR />Varsity Lacrosse</P><H3>Admissions</H3><P>Georgia, 2004<BR /></P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 23,
+      "FirstName": "Duncan",
+      "LocationId": 30,
+      "FirmId": 1242,
+      "LinkedInUrl": "https://www.linkedin.com/in/duncan-miller-03a26113",
+      "MiddleName": "W",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 172462,
+      "StatusId": 27,
+      "LastName": "Miller",
+      "ProbabilityOfMove": 7,
+      "Link": "www.mmmlaw.com/people/duncan-miller",
+      "Undergrad": "DUKE U"
+    },
+    "elementId": "176908"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 176712,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "State Bar of Georgia",
+      "SoftDeleted": false,
+      "Email": "rthrelkeld@mmmlaw.com",
+      "JdYear": 1988,
+      "Rating": 0,
+      "PracticeAreaId": 8,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5562,
+      "Phone": "404-504-7757",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Robert  Threlkeld</span></h3><h3>Email: <span style="font-weight: normal">rthrelkeld@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Partner</span></h3><h3>Phone: <span style="font-weight: normal">404.504.7757</span></h3><h3>Location: <span style="font-weight: normal">Atlanta</span></h3><div id='leopardBioHeader'></div><p>Robert Threlkeld works very closely with an exceptional team of attorneys dedicated to addressing the legal issues and implications that exist within healthcare law. Together, they solve problems and meet the most pressing needs of their clients.Working in a variety of complex areas, the team represents the full gamut of integrated healthcare systems including hospitals, medical centers, physician practices, home health agencies, skilled nursing facilities, assisted living facilities, and ambulatory surgery centers.Collectively, they bring deep industry experience and analysis to each and every matter facing their clients. In a highly-regulated, rapidly evolving and competitive environment, they counsel providers on a variety of complex regulatory matters, litigation and dispute resolution, Medicare and Medicaid fraud and abuse matters, false claims and whistleblower cases, and Certificate of Need, licensure, and EMTALA matters that extend to all components of the healthcare industry. read less</p><BR /><H3>Corporations</H3><P>Obtained multi-million dollar federal court judgment following arbitration on behalf of academic medical center for breach of consulting contract involving Medicaid upper payment limit program. <br/> Successfully represented three physicians in connection with a multi-million dollar dispute over equity interests in a radiation oncology company resulting in a multimillion dollar settlement for each of the three physicians. <br/> Obtained multi-million dollar judgment after jury trial in action challenging fraudulent transfers and conveyances. <br/> Obtained jury verdict in federal court action on behalf of whistleblower alleging retaliation under False Claims Act for cooperation with Governmental investigation. <br/> Successfully represented an Oregon community hospital in obtaining a pre-litigation settlement of managed care claims in excess of $1 Million against a publicly-traded health insurer. <br/> Obtained a multi-million dollar settlement in an arbitration proceeding brought by a Chicago not-for-profit health system against a publicly-traded managed care company. <br/> Obtained Dismissal with Prejudice of a Medicare Secondary Payor whistleblower lawsuit in Federal Court in Arkansas. <br/> Successful defense of licensure revocation hearings for assisted living facilities of publicly-traded company. <br/> Obtained a favorable settlement for the pharmacy operations of a publicly-traded company for investigation of billing practices in Georgia. <br/> Successful representation on appeal of hospital system in connection with physician's challenge to hospital governing board's ability to make final decision in credentialing disputes. <br/> Successful representation of major not-for-profit hospital system in Georgia in connection with claims and dispute against major, publicly-traded managed care company resulting in a multimillion dollar settlement in favor of the hospital system. <br/> Successful representation of cardiologist in False Claims Act suit filed in federal court in Georgia. <br/> Successful representation of specialty orthopedic physician practice in connection with dispute and claims against single specialty practice management company involving long-term management agreement. <br/> Successful resolution of qui tam action against hospital and physicians alleging violation of False Claims Act relating to various supervision and compensation relationships. <br/></P><H3>Schools</H3><P>Georgetown University, 1988<BR />Juris Doctor (J.D.)<BR />cum laude<BR />Georgetown Law Journal, Member 1986-87, Associate Editor 1987-88<BR />Harvard University, 1986<BR />Master of Arts (M.A.)<BR />Mellon Fellow<BR />Emory University, 1983<BR />Bachelor of Arts (B.A.)<BR />magna cum laude<BR />Stipe Scholar</P><H3>Admissions</H3><P>District of Columbia, 1988 <BR /> Maryland, 1992 <BR /> Georgia, 1995<BR /></P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 23,
+      "FirstName": "Robert",
+      "LocationId": 30,
+      "FirmId": 1242,
+      "LinkedInUrl": "https://www.linkedin.com/in/bob-threlkeld-75800911",
+      "MiddleName": "C",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 172225,
+      "StatusId": 27,
+      "LastName": "Threlkeld",
+      "ProbabilityOfMove": 0,
+      "Link": "www.mmmlaw.com/people/robert-threlkeld",
+      "Undergrad": "EMORY U"
+    },
+    "elementId": "176712"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 89883,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "TypeId": 23,
+      "SoftDeleted": false,
+      "Email": "bmills@mmmlaw.com",
+      "Corporations": "Korea Paper Manufacturers Association",
+      "JdYear": 1998,
+      "FirstName": "Brady",
+      "Rating": 0,
+      "LocationId": 10,
+      "FirmId": 1242,
+      "MiddleName": "W",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "PracticeAreaId": 12,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5565,
+      "Phone": "202-216-4116",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Brady  Mills</span></h3><h3>Email: <span style="font-weight: normal">bmills@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Partner</span></h3><h3>Phone: <span style="font-weight: normal">202.216.4116</span></h3><h3>Location: <span style="font-weight: normal">Washington, D.C.</span></h3><div id='leopardBioHeader'></div><p>BradyMills is a Partner in the firms International Trade practice. He has extensive experience in antidumping and countervailing duty investigations, and appears regularly before the U.S. Department of Commerce and U.S. International Trade Commission. Mr. Mills also has significant experience in antidumping and countervailing duty litigation before the U.S. Court of International Trade and U.S. Court of Appeals for the Federal Circuit. Mr. Mills has represented clients in the steel, paper, and petrochemical industries in South Korea and China, and represented a steel company from the United Arab Emirates (UAE) in the first countervailing duty investigation brought by the United States against the UAE. Mr. Mills also has experience in assisting clients with customs-related issues.Mr. Mills has been actively involved in pro-bono work, including his previous representation of an Alabama death row inmate whose case reached the U.S. Supreme Court. read less</p><BR /><H3>Corporations</H3><P>Representing Canfor Corporation, one of the world's largest lumber producers, in the countervailing duty administrative review of Softwood Lumber from Canada at the U.S. Department of Commerce <br/> Representing the Government of China in the countervailing duty investigations of Steel Propane Cylinders, Wooden Cabinets & Vanities, Fabricated Structural Steel, Steel Kegs, and Steel Wheels from China conducted by the U.S. Department of Commerce <br/> Represents one of the largest Canadian fabricated structural steel producers in the countervailing duty investigation of Fabricated Structural Steel from Canada at the U.S. Department of Commerce. <br/> Representing Korean flat-rolled steel and steel pipe producers in multiple appeals before the U.S. Court of International Trade <br/> Represented the Chinese stainless steel flange industry at the U.S. International Trade Commission <br/> Representing Government of the Province of New Brunswick in countervailing duty proceedings at the U.S. Department of Commerce <br/> Represented Taiwanese corrosion-resistant steel producer in antidumping and countervailing duty investigations at the U.S. Department of Commerce <br/> NEXTEEL Co., Ltd. v. United States, 355 F. Supp. 3d 1336 (Ct. Int'l Trade 2019) <br/> POSCO v. United States, 353 F. Supp. 3d 1357 (Ct. Int'l Trade 2018) <br/> POSCO v. United States, 337 F. Supp. 3d 1265 (Ct. Int'l Trade 2018) <br/> POSCO v. United States, 296 F. Supp. 3d 1320 (Ct. Int'l Trade 2018). <br/> Nucor Corporation v. United States, 286. F. Supp. 3d 1364 (Ct. Int'l Trade 2018) <br/> Prosperity Tieh Enterprise Co., Ltd. v. United States, 284 F. Supp. 3d 1364 (Ct. Int'l Trade 2018) <br/> Borusan Mannesmann v. United States, 61 F. Supp. 3d 1306 (Ct. Int'l Trade 2015) <br/> Dongbu Steel v. United States, 61 F. Supp. 3d 1377 (Ct. Int'l Trade 2015) <br/></P><H3>Schools</H3><P>Georgetown University, 1998<BR />Juris Doctor (J.D.)<BR />Towson University, 1993<BR />Bachelor of Science (B.S.)</P><H3>Admissions</H3><P>Maryland, 1998 <BR /> District of Columbia, 1999 <BR /> New York, 2002 <BR /> U.S. Court of International Trade<BR />U.S. Court of International Trade <BR /> U.S. Court of Appeals for the Federal Circuit <BR /> U.S. District Court for the Southern District of New York <BR /> U.S. District Court for the Eastern District of New York <BR /> U.S. Court of Appeals for the Eleventh Circuit <BR /> U.S. Supreme Court</P>",
+      "NodeId": 61196,
+      "StatusId": 27,
+      "LastName": "Mills",
+      "ProbabilityOfMove": 11,
+      "SchoolId": 7528,
+      "Link": "www.mmmlaw.com/people/brady-mills",
+      "Undergrad": "TOWSON U",
+      "International": false
+    },
+    "elementId": "89883"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+  {
+    "identity": 386214,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "Memberships": "Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program&&Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa&&Board Member, Southeast Region, Friends of the Israel Defense Forces",
+      "SoftDeleted": false,
+      "Email": "spielmanjo@gtlaw.com",
+      "JdYear": 2018,
+      "Rating": 0,
+      "PracticeAreaId": 2,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 1750,
+      "Phone": "678-553-4772",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Joshua R Spielman</span></h3><h3>Email: <span style="font-weight: normal">spielmanjo@gtlaw.com</span></h3><h3>Title: <span style="font-weight: normal">ASSOCIATE</span></h3><h3>Phone: <span style="font-weight: normal">678.553.4772</span></h3><h3>Location: <span style="font-weight: normal">ATLANTA</span></h3><div id='leopardBioHeader'></div><p>Joshua Spielman is a member of the Corporate Practice in Greenberg Traurig's Atlanta office. Josh focuses his practice in the areas of corporate and business law, mergers and acquisitions, emerging growth companies, venture capital financing and real estate.Prior to joining Greenberg Traurig, Josh spent time in both government and business. He served as Deputy Communications Director for a U.S. Congressman. He then transitioned to the private sector as a Project Manager at a digital media agency, where he helped Fortune 500 companies and celebrity brands frame their stories for the consumer market. Josh leveraged these experiences to form his own boutique consulting firm, which provided fundraising, strategic communications, operations and strategy services.Josh utilizes his entrepreneurial and government background to apply a strategic approach to his clients needs.ConcentrationsCorporate and business lawMergers and acquisitionsEmerging growth companiesVenture capitalReal estate</p><BR /><H3>Memberships</H3><P>Chair, Mentorship Committee, Georgetown University Law Center Business Law Scholars Program<br/>    Board Member, Atlanta Jewish Music Festival<br/>    Board Member, Metro Atlanta Alumni Association of Phi Beta Kappa<br/>    Board Member, Southeast Region, Friends of the Israel Defense Forces</P><H3>Schools</H3><P>J.D., Georgetown University Law Center<BR />Steven A. and Debra S. Robins Family Real Estate Law Scholar<BR />Deans Certificate<BR />Pro Bono Honoree<BR />B.A., summa cum laude, Rutgers University<BR />Phi Beta Kappa<BR />Rutgers School of Arts and Sciences Excellence Award<BR />Bonnie Wallace Le Clear Scholar</P><H3>Practice Areas</H3><P>Corporate and business law<BR />Mergers and acquisitions<BR />Emerging growth companies<BR />Venture capital<BR />Real estate</P><H3>Admissions</H3><P>Georgia</P><H3>Languages</H3><P>HEBREW, CONVERSATIONAL</P>",
+      "SchoolId": 7528,
+      "International": false,
+      "TypeId": 20,
+      "FirstName": "Joshua",
+      "LocationId": 30,
+      "FirmId": 732,
+      "LinkedInUrl": "https://www.linkedin.com/in/joshua-spielman-6b344312",
+      "MiddleName": "R",
+      "UpdatedAt": "2021-11-23T00:00:00Z",
+      "NodeId": 1348055,
+      "StatusId": 27,
+      "LastName": "Spielman",
+      "ProbabilityOfMove": 20,
+      "Link": "www.gtlaw.com/en/professionals/s/spielman-joshua-r",
+      "Undergrad": "RUTGERS"
+    },
+    "elementId": "386214"
+  }
+  {
+    "identity": 7611,
+    "labels": [
+      "LawFirm"
+    ],
+    "properties": {
+      "CreationDate": "2018-05-30T16:41:05Z",
+      "SiteId": "7134",
+      "SoftDeleted": false,
+      "CompanyId": "33959",
+      "LastUpdate": "2021-06-29T15:53:30Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "OpenDate": "2007-04-23T00:00:00Z",
+      "FirmStatusId": 1,
+      "Rank": 172,
+      "Url": "www.mmmlaw.com",
+      "Name": "Morris Manning & Martin LLP",
+      "F500": false,
+      "NodeSource": "Talent Engines",
+      "NodeId": 1242,
+      "International": false
+    },
+    "elementId": "7611"
+  }
+  {
+    "identity": 72800,
+    "labels": [
+      "Applicant"
+    ],
+    "properties": {
+      "TypeId": 20,
+      "SoftDeleted": false,
+      "Email": "ethomas@mmmlaw.com",
+      "JdYear": 2019,
+      "FirstName": "Edward",
+      "Rating": 0,
+      "LocationId": 10,
+      "FirmId": 1242,
+      "MiddleName": "John",
+      "UpdatedAt": "2021-12-23T00:00:00Z",
+      "PracticeAreaId": 12,
+      "NodeSource": "Talent Engines",
+      "FirmOfficeLocationId": 5565,
+      "Phone": "202-216-4110",
+      "Biography": "<h3>Attorney Name: <span style="font-weight: normal">Edward John Thomas III</span></h3><h3>Email: <span style="font-weight: normal">ethomas@mmmlaw.com</span></h3><h3>Title: <span style="font-weight: normal">Associate</span></h3><h3>Phone: <span style="font-weight: normal">202.216.4110</span></h3><h3>Location: <span style="font-weight: normal">Washington, D.C.</span></h3><div id='leopardBioHeader'></div><p>E.J.Thomas counsels clients on antidumping (AD) and countervailing duty (CVD) proceedings and has participated in multiple AD and CVD verifications in Canada, Turkey and Italy. Mr. Thomas prepares briefs, questionnaire responses, and other substantive and procedural documents at the U.S. Department of Commerce and the International Trade Commission, and prepares briefs at the Court of International Trade and the Court of Appeals for the Federal Circuit. Mr. Thomas also counsels clients on Section 232 exclusion requests before the U.S. Department of Commerce and Section 301 exclusion requests before the Office of the U.S. Trade</p><BR /><H3>Schools</H3><P>Georgetown University, 2019<BR />Juris Doctor (J.D.)<BR />Georgetown University, 2014<BR />Bachelor of Arts (B.A.)<BR />Cum Laude<BR />Certificate in Chinese</P><H3>Admissions</H3><P>District of Columbia, 2020<BR /></P>",
+      "NodeId": 995803,
+      "StatusId": 27,
+      "LastName": "Thomas III",
+      "ProbabilityOfMove": 26,
+      "SchoolId": 7528,
+      "Link": "www.mmmlaw.com/people/edward-john-thomas-iii",
+      "Undergrad": "GEORGETOWN U",
+      "International": false
+    },
+    "elementId": "72800"
+  }
+  {
+    "identity": 5003,
+    "labels": [
+      "School"
+    ],
+    "properties": {
+      "NodeSource": "Talent Engines",
+      "CreationDate": "2017-03-23T12:56:54Z",
+      "SoftDeleted": false,
+      "LastUpdate": "2019-02-13T08:59:08Z",
+      "UpsertDate": "2022-01-27T00:00:00-03:00",
+      "NodeId": 7528,
+      "Rank": 14,
+      "OriginalName": "Georgetown University",
+      "Url": "http://www.law.georgetown.edu
+  "
+    },
+    "elementId": "5003"
+  }
+ 
