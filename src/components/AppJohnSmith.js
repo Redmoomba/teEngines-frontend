@@ -5,7 +5,7 @@ import schoolLogo from "./../images/school.png";
 import peopleGreyLogo from "./../images/people.grey.png";
 import card from "./subcomponents/card";
 
-const FindRelationship = () => {
+const AppJohnSmith = () => {
   const [relationships, setRelationship] = useState([]);
 
   useEffect(() => {
@@ -196,4 +196,4 @@ const FindRelationship = () => {
   );
 };
 
-export default FindRelationship;
+export default AppJohnSmith;

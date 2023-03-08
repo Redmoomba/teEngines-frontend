@@ -25,7 +25,7 @@ function App() {
                 Home
               </Link>
               <Link
-                to="/FindRelationship"
+                to="/search"
                 className="list-group-item list-group-item-action"
               >
                 Find Your Relationship

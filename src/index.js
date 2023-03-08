@@ -4,7 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Home from "./components/Home";
 import ErrorPage from "./components/ErrorPage";
-import FindRelationship from "./components/FindRelationship";
+import AppJohnSmith from "./components/AppJohnSmith";
+import AppChipJones from "./components/AppChipJones";
+import Search from "./components/Search";
 
 const router = createBrowserRouter([
   {
@@ -12,11 +14,11 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      { index: true, element: <Home /> },
-      { path: "/FindRelationship",
-        element: <FindRelationship/>}
+      { index: true, element: <Search /> },
+      { path: "/AppJohnSmith", element: <AppJohnSmith /> },
+      { path: "/Search", element: <Search /> },
+      { path: "/AppChipJones", element: <AppChipJones /> },
     ],
-
   },
 ]);
 
