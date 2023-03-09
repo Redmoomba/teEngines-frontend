@@ -16,7 +16,7 @@ const ApplicantAnalytics = () => {
         }}
       >
         <div>
-          <h1>LawCareer</h1>
+          <h1>Analytic Dashboard</h1>
         </div>
         <hr />
         <div className="row" style={{ opacity: "1" }}>

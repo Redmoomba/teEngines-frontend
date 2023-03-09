@@ -37,7 +37,7 @@ const Search = () => {
                 />
               </div>
             </div>
-            <div align="right">
+            <div align="center"><br/>
               <button
                 onClick={handleSearch}
                 className="btn btn-outline-primary"
