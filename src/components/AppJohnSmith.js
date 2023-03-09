@@ -3,7 +3,7 @@ import applicantLogo from "./../images/applicant.png";
 import lawFirmLogo from "./../images/lawFirm.png";
 import schoolLogo from "./../images/school.png";
 import peopleGreyLogo from "./../images/people.grey.png";
-import card from "./subcomponents/card";
+import peopleRelLogo from "./../images/people.png"
 
 const AppJohnSmith = () => {
   const [relationships, setRelationship] = useState([]);
@@ -64,22 +64,22 @@ const AppJohnSmith = () => {
     <Fragment>
       <div
         className="jumbotron jumbotron-fluid"
-        style={{ background: "#0099E3" }}
+        style={{ background: "lightGrey" }}
       >
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-6">
-              <span className="h1 text-white">Mitchel Blanchard</span>
-              <p className="h6 text-white" style={{ indent: "100px" }}>
+              <span className="h1" style={{color: "darkred"}}>John Smith</span>
+              <p className="h6" style={{ indent: "100px" }}>
                 Undergraduate: UGA (1984-1989) | Law School: Duke (1990-1993)
               </p>
             </div>
-            <div className="col-sm-6 text-end text-white">
+            <div className="col-sm-6 text-end">
               <p className="lead">
                 Hiring Firm:{" "}
                 <em>
                   {" "}
-                  <b className="fs-2">Smith Gambrell & Russell LLP</b>
+                  <b className="fs-2">Connolly LLP</b>
                 </em>
               </p>
             </div>
@@ -89,9 +89,12 @@ const AppJohnSmith = () => {
             <div className="row" align="center">
               {/* Card */}
               <div className="card me-3" style={{ width: "24%" }}>
-                <div className="card-header">
-                  <img src={applicantLogo} height="30" width="30" />{" "}
-                  <b>Obiananma Okeani</b>
+                <div
+                  className="card-header"
+                  style={{ verticalAlign: "middle" }}
+                >
+                  <img src={peopleRelLogo} height="20" width="20" />{" "}
+                  <b>Michael Hedge</b>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
@@ -100,7 +103,7 @@ const AppJohnSmith = () => {
                   </li>
                   <li className="list-group-item">
                     <b>Years Attended:</b> <br />
-                    1989 - 1991
+                    1988 - 1990
                   </li>
                   <li className="list-group-item">
                     <b>Undergraduate:</b> <br />
@@ -108,15 +111,15 @@ const AppJohnSmith = () => {
                   </li>
                   <li className="list-group-item">
                     <b>Years Attended:</b> <br />
-                    1983 - 1988
+                    1982 - 1987
                   </li>
                 </ul>
               </div>
               {/* Card */}
               <div className="card me-3" style={{ width: "24%" }}>
                 <div className="card-header">
-                  <img src={peopleGreyLogo} height="30" width="30" />{" "}
-                  <b>Melanie Walker</b>
+                  <img src={peopleRelLogo} height="30" width="30" />{" "}
+                  <b>Kerri Gilliam</b>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
@@ -126,14 +129,14 @@ const AppJohnSmith = () => {
                   </li>
                   <li className="list-group-item">
                     <b>Years Attended:</b> <br />
-                    1989 - 1991
+                    1990 - 1994
                   </li>
                   <li className="list-group-item">
-                    <b>Undergrade:</b> <br /> University of Georgia
+                    <b>Undergraduate:</b> <br /> University of Georgia
                   </li>
                   <li className="list-group-item">
                     <b>Years Attended:</b> <br />
-                    1983 - 1988
+                    1985 - 1989
                   </li>
                 </ul>
               </div>
@@ -141,8 +144,8 @@ const AppJohnSmith = () => {
               {/* Card */}
               <div className="card me-3" style={{ width: "24%" }}>
                 <div className="card-header">
-                  <img src={peopleGreyLogo} height="30" width="30" />{" "}
-                  <b>Sasha Greenberg</b>
+                  <img src={peopleRelLogo} height="30" width="30" />{" "}
+                  <b>Sasha Spears</b>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
@@ -151,21 +154,21 @@ const AppJohnSmith = () => {
                   </li>
                   <li className="list-group-item">
                     <b>Years Attended:</b> <br />
-                    1989 - 1991
+                    1990 - 1993
                   </li>
                   <li className="list-group-item">
-                    <b>Undergrade:</b> <br /> University of Georgia
+                    <b>Undergraduate:</b> <br /> University of Georgia
                   </li>
                   <li className="list-group-item">
-                    <b>Years Attended:</b> <br /> 1983 - 1988
+                    <b>Years Attended:</b> <br /> 1981 - 1986
                   </li>
                 </ul>
               </div>
               {/* Card */}
               <div className="card" style={{ width: "24%" }}>
                 <div className="card-header">
-                  <img src={peopleGreyLogo} height="30" width="30" />{" "}
-                  <b>Joshua Spielman</b>
+                  <img src={peopleRelLogo} height="30" width="30" />{" "}
+                  <b>Joshua Fowler</b>
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item">
@@ -177,7 +180,7 @@ const AppJohnSmith = () => {
                     1989 - 1991
                   </li>
                   <li className="list-group-item">
-                    <b>Undergrade:</b> <br />
+                    <b>Undergraduate:</b> <br />
                     University of Georgia
                   </li>
                   <li className="list-group-item">

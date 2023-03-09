@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 import breifcase from "./../images/iconBriefcase.grey.png";
+import searchIcon from "./../images/search.png";
 
 const ApplicantAnalytics = () => {
   return (
@@ -137,7 +138,9 @@ const ApplicantAnalytics = () => {
                         />
                       </div>
                       <button type="button" className="btn btn-primary">
-                        <i className="fas fa-search"></i>
+                        <i className="fas fa-search">
+                          <img src={searchIcon} height="20" width="20"></img>
+                        </i>
                       </button>
                     </div>
                   </th>

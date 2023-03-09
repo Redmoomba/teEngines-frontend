@@ -10,7 +10,6 @@ const Search = () => {
 
   const handleSearch = (event) => {
     if (message.toLocaleLowerCase() === "John Smith".toLowerCase()) {
-      alert(message);
       navigate("/AppJohnSmith");
     } else if (message.toLocaleLowerCase() === "Chip Jones".toLowerCase()) {
       navigate("/AppChipJones");

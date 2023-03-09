@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import { Link } from "react-router-dom";
 import teLogo from "./images/talent-engine-inv.png";
+import teLogo1 from "./images/LawCareer.png";
 import teBanner from "./images/teBanner.jpeg";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="container-fluid" style={{ backgroundImage: teBanner }}>
       <div className="row">
         <div className="col-sm-8">
-          <img src={teLogo} width="250" />
+          <img src={teLogo1} width="250" />
         </div>
         <div className="col text-end">
           <Link to="/">
