@@ -27,7 +27,7 @@ const ApplicantAnalytics = () => {
             </b>
             <br />
             <br />
-            <a href="!#" style={{ color: "red" }}>
+            <a href="/" style={{ color: "red" }}>
               View all anaytics
             </a>
           </div>
@@ -76,7 +76,7 @@ const ApplicantAnalytics = () => {
               No Interviews Scheduled
               <br />
               <br />
-              <a href="!#" style={{ color: "red" }}>
+              <a href="/" style={{ color: "red" }}>
                 View Calendar &gt;
               </a>
             </div>
@@ -106,7 +106,7 @@ const ApplicantAnalytics = () => {
                     <img src={breifcase} height="20" width="20"></img> Your
                     applicant download report has been generated, download the
                     report here:{" "}
-                    <a href="!#" style={{ color: "red" }}>
+                    <a href="/" style={{ color: "red" }}>
                       Download Here
                     </a>
                   </th>
@@ -173,7 +173,7 @@ const ApplicantAnalytics = () => {
                   <td>
                     <div>
                       <h5>
-                        <a href="!#" style={{ color: "darkred" }}>
+                        <a href="/" style={{ color: "darkred" }}>
                           Canidate Development
                         </a>
                       </h5>
@@ -196,7 +196,7 @@ const ApplicantAnalytics = () => {
                     </div>
                   </td>
                   <td className="text-center">
-                    <a href="!#" style={{ color: "grey" }}>
+                    <a href="/" style={{ color: "grey" }}>
                       None
                     </a>
                   </td>
@@ -207,7 +207,7 @@ const ApplicantAnalytics = () => {
                   <td>
                     <div>
                       <h5>
-                        <a href="!#" style={{ color: "darkred" }}>
+                        <a href="/" style={{ color: "darkred" }}>
                           Commercial Litigation Associate
                         </a>
                       </h5>
@@ -230,7 +230,7 @@ const ApplicantAnalytics = () => {
                     </div>
                   </td>
                   <td className="text-center">
-                    <a href="!#" style={{ color: "grey" }}>
+                    <a href="/" style={{ color: "grey" }}>
                       None
                     </a>
                   </td>
@@ -241,7 +241,7 @@ const ApplicantAnalytics = () => {
                   <td>
                     <div>
                       <h5>
-                        <a href="!#" style={{ color: "darkred" }}>
+                        <a href="/" style={{ color: "darkred" }}>
                           Insurance & Financial Litigation Associate
                         </a>
                       </h5>
@@ -264,7 +264,7 @@ const ApplicantAnalytics = () => {
                     </div>
                   </td>
                   <td className="text-center">
-                    <a href="!#" style={{ color: "grey" }}>
+                    <a href="/" style={{ color: "grey" }}>
                       None
                     </a>
                   </td>
