@@ -7,6 +7,8 @@ import ErrorPage from "./components/ErrorPage";
 import AppJohnSmith from "./components/AppJohnSmith";
 import AppChipJones from "./components/AppChipJones";
 import Search from "./components/Search";
+import DiscJohnSmith from "./components/DiscJohnSmith";
+import ApplicantAnalytics from "./components/ApplicantAnalytics";
 
 const router = createBrowserRouter([
   {
@@ -14,10 +16,13 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-      { index: true, element: <Search /> },
+      { index: true, element: <ApplicantAnalytics /> },
+      { path: "/Home", element: <Home /> },
       { path: "/AppJohnSmith", element: <AppJohnSmith /> },
       { path: "/Search", element: <Search /> },
       { path: "/AppChipJones", element: <AppChipJones /> },
+      { path: "/DiscJohnSmith", element: <DiscJohnSmith /> },
+      { path: "/ApplicantAnalytics", element: <ApplicantAnalytics /> },
     ],
   },
 ]);

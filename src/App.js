@@ -5,7 +5,7 @@ import teBanner from "./images/teBanner.jpeg";
 
 function App() {
   return (
-    <div className="container-fluid mt-3" style={{ backgroundImage: teBanner }}>
+    <div className="container-fluid" style={{ backgroundImage: teBanner }}>
       <div className="row">
         <div className="col-sm-8">
           <img src={teLogo} width="250" />
@@ -17,12 +17,12 @@ function App() {
         </div>
         <hr className="mb-3"></hr>
       </div>
-      <div className="row">
-        <div className="col-lg-2">
+      <div className="row ">
+        <div className="col-2">
           <nav>
             <div className="list-group">
               <Link to="/" className="list-group-item list-group-item-action">
-                Home
+                Dashboard
               </Link>
               <Link
                 to="/search"
@@ -33,7 +33,7 @@ function App() {
             </div>
           </nav>
         </div>
-        <div className="col-md-10">
+        <div className="col-10 flex">
           <Outlet />
         </div>
       </div>
