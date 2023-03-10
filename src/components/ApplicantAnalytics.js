@@ -201,7 +201,7 @@ const ApplicantAnalytics = () => {
                     </a>
                   </td>
                   <td className="text-center">1000002</td>
-                  <td className="text-center">Birmingham, Al</td>
+                  <td className="text-center">Birmingham, AL</td>
                 </tr>
                 <tr>
                   <td>
@@ -235,7 +235,7 @@ const ApplicantAnalytics = () => {
                     </a>
                   </td>
                   <td className="text-center">1000011</td>
-                  <td className="text-center">Orlando, Fl</td>
+                  <td className="text-center">Orlando, FL</td>
                 </tr>
                 <tr>
                   <td>
